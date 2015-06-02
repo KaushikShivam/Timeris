@@ -13,6 +13,10 @@
 		2CC51A6A1B08FBD90093DC3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A691B08FBD90093DC3B /* Images.xcassets */; };
 		2CC51A6D1B08FBD90093DC3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A6B1B08FBD90093DC3B /* LaunchScreen.xib */; };
 		2CC51A791B08FBD90093DC3B /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC51A781B08FBD90093DC3B /* StopWatchTests.swift */; };
+		2CC51A871B08FD700093DC3B /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A831B08FD700093DC3B /* lap.png */; };
+		2CC51A881B08FD700093DC3B /* reset in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A841B08FD700093DC3B /* reset */; };
+		2CC51A891B08FD700093DC3B /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A851B08FD700093DC3B /* start.png */; };
+		2CC51A8A1B08FD700093DC3B /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A861B08FD700093DC3B /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		2CC51A721B08FBD90093DC3B /* StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC51A771B08FBD90093DC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC51A781B08FBD90093DC3B /* StopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTests.swift; sourceTree = "<group>"; };
+		2CC51A831B08FD700093DC3B /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
+		2CC51A841B08FD700093DC3B /* reset */ = {isa = PBXFileReference; lastKnownFileType = file; path = reset; sourceTree = "<group>"; };
+		2CC51A851B08FD700093DC3B /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		2CC51A861B08FD700093DC3B /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		2CC51A5F1B08FBD90093DC3B /* StopWatch */ = {
 			isa = PBXGroup;
 			children = (
+				2CC51A821B08FD550093DC3B /* Button Images */,
 				2CC51A621B08FBD90093DC3B /* AppDelegate.swift */,
 				2CC51A641B08FBD90093DC3B /* ViewController.swift */,
 				2CC51A661B08FBD90093DC3B /* Main.storyboard */,
@@ -110,6 +119,17 @@
 				2CC51A771B08FBD90093DC3B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CC51A821B08FD550093DC3B /* Button Images */ = {
+			isa = PBXGroup;
+			children = (
+				2CC51A831B08FD700093DC3B /* lap.png */,
+				2CC51A841B08FD700093DC3B /* reset */,
+				2CC51A851B08FD700093DC3B /* start.png */,
+				2CC51A861B08FD700093DC3B /* stop.png */,
+			);
+			name = "Button Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +212,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC51A881B08FD700093DC3B /* reset in Resources */,
 				2CC51A681B08FBD90093DC3B /* Main.storyboard in Resources */,
 				2CC51A6D1B08FBD90093DC3B /* LaunchScreen.xib in Resources */,
+				2CC51A8A1B08FD700093DC3B /* stop.png in Resources */,
 				2CC51A6A1B08FBD90093DC3B /* Images.xcassets in Resources */,
+				2CC51A891B08FD700093DC3B /* start.png in Resources */,
+				2CC51A871B08FD700093DC3B /* lap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
