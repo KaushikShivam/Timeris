@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CC51A5C1B08FBD90093DC3B"
-               BuildableName = "StopWatch.app"
-               BlueprintName = "StopWatch"
-               ReferencedContainer = "container:StopWatch.xcodeproj">
+               BuildableName = "Timeris.app"
+               BlueprintName = "Timeris"
+               ReferencedContainer = "container:Timeris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CC51A711B08FBD90093DC3B"
-               BuildableName = "StopWatchTests.xctest"
-               BlueprintName = "StopWatchTests"
-               ReferencedContainer = "container:StopWatch.xcodeproj">
+               BuildableName = "TimerisTests.xctest"
+               BlueprintName = "TimerisTests"
+               ReferencedContainer = "container:Timeris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CC51A711B08FBD90093DC3B"
-               BuildableName = "StopWatchTests.xctest"
-               BlueprintName = "StopWatchTests"
-               ReferencedContainer = "container:StopWatch.xcodeproj">
+               BuildableName = "TimerisTests.xctest"
+               BlueprintName = "TimerisTests"
+               ReferencedContainer = "container:Timeris.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC51A5C1B08FBD90093DC3B"
-            BuildableName = "StopWatch.app"
-            BlueprintName = "StopWatch"
-            ReferencedContainer = "container:StopWatch.xcodeproj">
+            BuildableName = "Timeris.app"
+            BlueprintName = "Timeris"
+            ReferencedContainer = "container:Timeris.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC51A5C1B08FBD90093DC3B"
-            BuildableName = "StopWatch.app"
-            BlueprintName = "StopWatch"
-            ReferencedContainer = "container:StopWatch.xcodeproj">
+            BuildableName = "Timeris.app"
+            BlueprintName = "Timeris"
+            ReferencedContainer = "container:Timeris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC51A5C1B08FBD90093DC3B"
-            BuildableName = "StopWatch.app"
-            BlueprintName = "StopWatch"
-            ReferencedContainer = "container:StopWatch.xcodeproj">
+            BuildableName = "Timeris.app"
+            BlueprintName = "Timeris"
+            ReferencedContainer = "container:Timeris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

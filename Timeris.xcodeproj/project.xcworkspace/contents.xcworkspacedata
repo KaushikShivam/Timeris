@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:StopWatch.xcodeproj">
+      location = "self:/Users/shivamkaushik/Documents/Development/StopWatch/Timeris.xcodeproj">
    </FileRef>
 </Workspace>

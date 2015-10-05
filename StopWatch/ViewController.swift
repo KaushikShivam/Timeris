@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
   @IBOutlet weak var startStopButton: UIButton!
   @IBOutlet weak var lapResetButton: UIButton!
   
+  
   var timer = NSTimer()
   var minutes = 0
   var seconds = 0
@@ -46,10 +47,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
   }
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: "Cell")
-    cell.backgroundColor = self.view.backgroundColor
-    cell.textLabel?.text = "Lap \(laps.count - indexPath.row)"
-    cell.detailTextLabel?.text = laps[indexPath.row]
+//    let cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: "Cell")
+//    cell.backgroundColor = self.view.backgroundColor
+//    cell.textLabel?.text = "Lap \(laps.count - indexPath.row)"
+//    cell.detailTextLabel?.text = laps[indexPath.row]
+    let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
+    let lapCount = cell.viewWithTag(1001) as! UILabel
+    let lapDetails = cell.viewWithTag(1002) as! UILabel
+    
+    lapCount.text = "\(laps.count - indexPath.row)"
+    lapDetails.text = laps[indexPath.row]
+    
     return cell
   }
 
@@ -58,14 +66,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
       timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: Selector("updateStopwatch"), userInfo: nil, repeats: true)
       startStopWatch = false
       
-      startStopButton.setImage(UIImage(named: "stop.png"), forState: UIControlState.Normal)
-      lapResetButton.setImage(UIImage(named: "lap.png"), forState: UIControlState.Normal)
+      startStopButton.setImage(UIImage(named: "Stop.png"), forState: UIControlState.Normal)
+      lapResetButton.setImage(UIImage(named: "Lap.png"), forState: UIControlState.Normal)
       addLap = true
     } else {
       timer.invalidate()
       startStopWatch = true
-      startStopButton.setImage(UIImage(named: "start.png"), forState: UIControlState.Normal)
-      lapResetButton.setImage(UIImage(named: "reset.png"), forState: UIControlState.Normal)
+      startStopButton.setImage(UIImage(named: "Start.png"), forState: UIControlState.Normal)
+      lapResetButton.setImage(UIImage(named: "Reset.png"), forState: UIControlState.Normal)
       addLap = false
     }
   }
@@ -76,7 +84,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
       lapsTableView.reloadData()
     } else {
       addLap = false
-      lapResetButton.setImage(UIImage(named: "lap.png"), forState: UIControlState.Normal)
+      lapResetButton.setImage(UIImage(named: "Lap.png"), forState: UIControlState.Normal)
       laps.removeAll(keepCapacity: false)
       lapsTableView.reloadData()
       fractions = 0

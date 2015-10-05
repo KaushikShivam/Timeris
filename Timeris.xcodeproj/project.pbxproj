@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8A56BA1B25AB7C007CCA7F /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8A56B61B25AB7C007CCA7F /* Stop.png */; };
+		2C8A56BB1B25AB7C007CCA7F /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8A56B71B25AB7C007CCA7F /* Start.png */; };
+		2C8A56BC1B25AB7C007CCA7F /* Lap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8A56B81B25AB7C007CCA7F /* Lap.png */; };
+		2C8A56BD1B25AB7C007CCA7F /* Reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8A56B91B25AB7C007CCA7F /* Reset.png */; };
 		2CC51A631B08FBD90093DC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC51A621B08FBD90093DC3B /* AppDelegate.swift */; };
 		2CC51A651B08FBD90093DC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC51A641B08FBD90093DC3B /* ViewController.swift */; };
 		2CC51A681B08FBD90093DC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A661B08FBD90093DC3B /* Main.storyboard */; };
 		2CC51A6A1B08FBD90093DC3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A691B08FBD90093DC3B /* Images.xcassets */; };
-		2CC51A6D1B08FBD90093DC3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A6B1B08FBD90093DC3B /* LaunchScreen.xib */; };
 		2CC51A791B08FBD90093DC3B /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC51A781B08FBD90093DC3B /* StopWatchTests.swift */; };
-		2CC51A871B08FD700093DC3B /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A831B08FD700093DC3B /* lap.png */; };
-		2CC51A881B08FD700093DC3B /* reset in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A841B08FD700093DC3B /* reset */; };
-		2CC51A891B08FD700093DC3B /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A851B08FD700093DC3B /* start.png */; };
-		2CC51A8A1B08FD700093DC3B /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC51A861B08FD700093DC3B /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CC51A5D1B08FBD90093DC3B /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8A56B61B25AB7C007CCA7F /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		2C8A56B71B25AB7C007CCA7F /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		2C8A56B81B25AB7C007CCA7F /* Lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lap.png; sourceTree = "<group>"; };
+		2C8A56B91B25AB7C007CCA7F /* Reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reset.png; sourceTree = "<group>"; };
+		2CC51A5D1B08FBD90093DC3B /* Timeris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC51A611B08FBD90093DC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC51A621B08FBD90093DC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC51A641B08FBD90093DC3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CC51A671B08FBD90093DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CC51A691B08FBD90093DC3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2CC51A6C1B08FBD90093DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2CC51A721B08FBD90093DC3B /* StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC51A721B08FBD90093DC3B /* TimerisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC51A771B08FBD90093DC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC51A781B08FBD90093DC3B /* StopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTests.swift; sourceTree = "<group>"; };
-		2CC51A831B08FD700093DC3B /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
-		2CC51A841B08FD700093DC3B /* reset */ = {isa = PBXFileReference; lastKnownFileType = file; path = reset; sourceTree = "<group>"; };
-		2CC51A851B08FD700093DC3B /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
-		2CC51A861B08FD700093DC3B /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +74,8 @@
 		2CC51A5E1B08FBD90093DC3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CC51A5D1B08FBD90093DC3B /* StopWatch.app */,
-				2CC51A721B08FBD90093DC3B /* StopWatchTests.xctest */,
+				2CC51A5D1B08FBD90093DC3B /* Timeris.app */,
+				2CC51A721B08FBD90093DC3B /* TimerisTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +88,6 @@
 				2CC51A641B08FBD90093DC3B /* ViewController.swift */,
 				2CC51A661B08FBD90093DC3B /* Main.storyboard */,
 				2CC51A691B08FBD90093DC3B /* Images.xcassets */,
-				2CC51A6B1B08FBD90093DC3B /* LaunchScreen.xib */,
 				2CC51A601B08FBD90093DC3B /* Supporting Files */,
 			);
 			path = StopWatch;
@@ -124,10 +121,10 @@
 		2CC51A821B08FD550093DC3B /* Button Images */ = {
 			isa = PBXGroup;
 			children = (
-				2CC51A831B08FD700093DC3B /* lap.png */,
-				2CC51A841B08FD700093DC3B /* reset */,
-				2CC51A851B08FD700093DC3B /* start.png */,
-				2CC51A861B08FD700093DC3B /* stop.png */,
+				2C8A56B61B25AB7C007CCA7F /* Stop.png */,
+				2C8A56B71B25AB7C007CCA7F /* Start.png */,
+				2C8A56B81B25AB7C007CCA7F /* Lap.png */,
+				2C8A56B91B25AB7C007CCA7F /* Reset.png */,
 			);
 			name = "Button Images";
 			sourceTree = "<group>";
@@ -135,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CC51A5C1B08FBD90093DC3B /* StopWatch */ = {
+		2CC51A5C1B08FBD90093DC3B /* Timeris */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CC51A7C1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "StopWatch" */;
+			buildConfigurationList = 2CC51A7C1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "Timeris" */;
 			buildPhases = (
 				2CC51A591B08FBD90093DC3B /* Sources */,
 				2CC51A5A1B08FBD90093DC3B /* Frameworks */,
@@ -147,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = StopWatch;
+			name = Timeris;
 			productName = StopWatch;
-			productReference = 2CC51A5D1B08FBD90093DC3B /* StopWatch.app */;
+			productReference = 2CC51A5D1B08FBD90093DC3B /* Timeris.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2CC51A711B08FBD90093DC3B /* StopWatchTests */ = {
+		2CC51A711B08FBD90093DC3B /* TimerisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CC51A7F1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "StopWatchTests" */;
+			buildConfigurationList = 2CC51A7F1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "TimerisTests" */;
 			buildPhases = (
 				2CC51A6E1B08FBD90093DC3B /* Sources */,
 				2CC51A6F1B08FBD90093DC3B /* Frameworks */,
@@ -165,9 +162,9 @@
 			dependencies = (
 				2CC51A741B08FBD90093DC3B /* PBXTargetDependency */,
 			);
-			name = StopWatchTests;
+			name = TimerisTests;
 			productName = StopWatchTests;
-			productReference = 2CC51A721B08FBD90093DC3B /* StopWatchTests.xctest */;
+			productReference = 2CC51A721B08FBD90093DC3B /* TimerisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CC51A581B08FBD90093DC3B /* Build configuration list for PBXProject "StopWatch" */;
+			buildConfigurationList = 2CC51A581B08FBD90093DC3B /* Build configuration list for PBXProject "Timeris" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -201,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CC51A5C1B08FBD90093DC3B /* StopWatch */,
-				2CC51A711B08FBD90093DC3B /* StopWatchTests */,
+				2CC51A5C1B08FBD90093DC3B /* Timeris */,
+				2CC51A711B08FBD90093DC3B /* TimerisTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,13 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC51A881B08FD700093DC3B /* reset in Resources */,
 				2CC51A681B08FBD90093DC3B /* Main.storyboard in Resources */,
-				2CC51A6D1B08FBD90093DC3B /* LaunchScreen.xib in Resources */,
-				2CC51A8A1B08FD700093DC3B /* stop.png in Resources */,
+				2C8A56BA1B25AB7C007CCA7F /* Stop.png in Resources */,
+				2C8A56BD1B25AB7C007CCA7F /* Reset.png in Resources */,
+				2C8A56BC1B25AB7C007CCA7F /* Lap.png in Resources */,
 				2CC51A6A1B08FBD90093DC3B /* Images.xcassets in Resources */,
-				2CC51A891B08FD700093DC3B /* start.png in Resources */,
-				2CC51A871B08FD700093DC3B /* lap.png in Resources */,
+				2C8A56BB1B25AB7C007CCA7F /* Start.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +250,7 @@
 /* Begin PBXTargetDependency section */
 		2CC51A741B08FBD90093DC3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CC51A5C1B08FBD90093DC3B /* StopWatch */;
+			target = 2CC51A5C1B08FBD90093DC3B /* Timeris */;
 			targetProxy = 2CC51A731B08FBD90093DC3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -266,14 +262,6 @@
 				2CC51A671B08FBD90093DC3B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2CC51A6B1B08FBD90093DC3B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CC51A6C1B08FBD90093DC3B /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StopWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Timeris;
 			};
 			name = Debug;
 		};
@@ -376,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StopWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Timeris;
 			};
 			name = Release;
 		};
@@ -394,8 +382,8 @@
 				);
 				INFOPLIST_FILE = StopWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopWatch.app/StopWatch";
+				PRODUCT_NAME = TimerisTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timeris.app/Timeris";
 			};
 			name = Debug;
 		};
@@ -409,15 +397,15 @@
 				);
 				INFOPLIST_FILE = StopWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopWatch.app/StopWatch";
+				PRODUCT_NAME = TimerisTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timeris.app/Timeris";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CC51A581B08FBD90093DC3B /* Build configuration list for PBXProject "StopWatch" */ = {
+		2CC51A581B08FBD90093DC3B /* Build configuration list for PBXProject "Timeris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CC51A7A1B08FBD90093DC3B /* Debug */,
@@ -426,21 +414,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CC51A7C1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
+		2CC51A7C1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "Timeris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CC51A7D1B08FBD90093DC3B /* Debug */,
 				2CC51A7E1B08FBD90093DC3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2CC51A7F1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "StopWatchTests" */ = {
+		2CC51A7F1B08FBD90093DC3B /* Build configuration list for PBXNativeTarget "TimerisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CC51A801B08FBD90093DC3B /* Debug */,
 				2CC51A811B08FBD90093DC3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
